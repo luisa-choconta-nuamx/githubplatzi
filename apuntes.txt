@@ -1,0 +1,9 @@
+Repositorio remoto - Github
+Directorio de trabajo
+Staging 
+Repositorio Local
+
+En vez de dar git init doy git clone de mi repo remoto al local
+se trae una copia de master a mi directorio
+
+git pull
