@@ -44,4 +44,6 @@ master: master
 hotfix:error en prod
 puedo tener cuantas ramas y repos yo quiera lo importante es yo tener claro en que momento hago el merge y que hice
 
-
+-----
+git log --stat
+me demuestra el detalle del commit (qué cambié en cada uno) 
