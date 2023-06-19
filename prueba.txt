@@ -1,1 +1,47 @@
 Hola Soy Lu
+
+esc + shift + zz función para salirte de la pantalla de edición de commit  de git --- esto forza el envio del commit
+tomar curso de comandos 
+
+shift + i para insertar el comentario en la consola de edición git 
+
+nunca se puede enviar un cambio vacio 
+
+para salirme de la ventanita de commits es con q
+
+ f05c69c350c9df657431f457e756261c923a007d
+git diff commit 1 commit 2 sirve para comparar diferencias entre commits 
+git log sirve para ver el histórico de commits 	
+
+
+como vuelvo a un commit anterior?
+----
+que hemos hecho?
+cuando entramos por consola al archivo y escribios git .init
+se crea un area en emmoria ram (staging) espacio temporal 
+de crea el repo /.git/
+una vez lo agrego al area de memoria ram usando git add . el archivo pasa a vivir en staging y está esperando a que lo envie al repo
+puedo remover el archivo con rm
+
+hago el commit con git commit -m y esto pasa al repositorio (/.git/master) 
+Estados del archivo:
+estado inicial untracked
+git add - tracked
+git commit -m - repo (hash del commit )
+
+
+traer cambios de un repo a mi espacio local :: git checkout 
+
+RAMAS: Romper en diferentes lineas de tiempo el código y unirlas despues 
+
+
+si necesito solucionar un error de producción tengo aue sacar una versión de mi rama master
+merge a rama master y despues actualizar mi rama de desarrollo o las que tenga que actualizar 
+esto es muy común en el mercado
+este es el ciclo de desarrollo común 
+Develop: desarrollo
+master: master
+hotfix:error en prod
+puedo tener cuantas ramas y repos yo quiera lo importante es yo tener claro en que momento hago el merge y que hice
+
+
